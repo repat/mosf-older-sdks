@@ -8,6 +8,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ToggleButton;
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
 
 public class Flashlight extends Activity {
     private Camera cam;
@@ -16,6 +17,9 @@ public class Flashlight extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
+        // portrait Mode
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         // delete title
         requestWindowFeature(Window.FEATURE_NO_TITLE);
