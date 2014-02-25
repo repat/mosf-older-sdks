@@ -27,6 +27,9 @@ Check out the [version for Android 4.0+](http://github.com/repat/mosf).
 * Samsung Galaxy S4 mini
 * Sony Ericsson Xperia Active
 * Huawei Ascend Y300
+* LG Optimus 2X
+* HTC Dream G1
+* Fairphone FP1
 
 #### Does not work on
 * Galaxy Nexus i925/ Nexus Prime
